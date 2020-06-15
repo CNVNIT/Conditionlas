@@ -6,7 +6,268 @@
     <title>Document</title>
   </head>
   <script>
-    alert("Hi");
+    // programm FLOW:
+    // let a = 15;
+    // if (a == 11) {
+    //   alert("Hello!");
+    // } else {
+    //   alert("None");
+    // }
+    // if (a < 5) {
+    //   console.log("less 5");
+    // } else if (a < 10) {
+    //   console.log("less 10");
+    // } else if (a < 15) {
+    //   console.log("less 15");
+    // } else {
+    //   console.log("more");
+    // }
+    // let a = 20;
+    // if (a > 10) {
+    //   console.log("Yes");
+    // } else {
+    //   console.log("No");
+    // }
+
+    // ------------
+    // let a = 15;
+    // if (a < 10) {
+    //   console.log("Yes");
+    // } else if (a > 30) {
+    //   console.log("No");
+    // }
+    // ------------
+    // let a = 20;
+    // if (a < 10) {
+    //   console.log("Yes");
+    // } else if (a > 30) {
+    //   console.log("No");
+    // } else {
+    //   console.log("+");
+    // }
+    // ------------
+    // let a = 20;
+    // if (a < 25) {
+    //   console.log("Yes");
+    // } else if (a < 30) {
+    //   console.log("No");
+    // } else {
+    //   console.log("+");
+    // }
+    // ------------
+    // let a = 20;
+    // if (a > 10 && a < 30) {
+    //   console.log("Yes");
+    // } else {
+    //   console.log("+");
+    // }
+    // ------------
+    // let a = 20;
+    // if (a < 10 || a > 15) {
+    //   console.log("Yes");
+    // } else {
+    //   console.log("+");
+    // }
+    // ------------
+    // let a = 20;
+    // if (a < 10 && a > 15) {
+    //   console.log("Yes");
+    // } else {
+    //   console.log("+");
+    // }
+    // ------------
+    // let a = -5;
+    // if (a < 10 || a > 15) {
+    //   console.log("Yes");
+    // } else {
+    //   console.log("+");
+    // }
+    // ------------
+    // let a = 20;
+    // if (a < 10 || a > 30 || 30 > a) {
+    //   console.log("Yes");
+    // } else {
+    //   console.log("+");
+    // }
+    // ------------
+    // let a = 20;
+    // if (a < 10 && a > 30 && 30 > a) {
+    //   console.log("Yes");
+    // } else {
+    //   console.log("+");
+    // }
+    // ------------
+    // let a = 0;
+    // if (a) {
+    //   console.log("Yes");
+    // } else {
+    //   console.log("+");
+    // }
+    // ------------
+    // let a = "John";
+    // if (a == "John") {
+    //   console.log("Yes");
+    // } else {
+    //   console.log("+");
+    // }
+    // ------------
+    // let a = "John";
+    // if (a == "Tom" || a == "John") {
+    //   console.log("Yes");
+    // } else {
+    //   console.log("+");
+    // }
+
+    // let a = "John";
+    // if (a == "Tom" && a == "John") {
+    //   console.log("Yes");
+    // } else {
+    //   console.log("+");
+    // }
+
+    // let a = "John";
+    // if (a != "Tom") {
+    //   console.log("Yes");
+    // } else {
+    //   console.log("+");
+    // }
+
+    // let a = "John";
+    // if (a != "Tom" && a == "John") {
+    //   console.log("Yes");
+    // } else {
+    //   console.log("+");
+    // }
+
+    // let a = "John";
+    // if (a == "John" && 10 > 20) {
+    //   console.log("Yes");
+    // } else {
+    //   console.log("+");
+    // }
+
+    // let a = "John";
+    // if (a) {
+    //   console.log("Yes");
+    // } else {
+    //   console.log("+");
+    // }
+
+    // if (10 >= 10) {
+    //   console.log("Yes");
+    // } else {
+    //   console.log("+");
+    // }
+
+    // if (10 > 0) {
+    //   if (10 < 20) {
+    //     console.log("-");
+    //   } else {
+    //     console.log("Yes");
+    //   }
+    // } else {
+    //   console.log("+");
+    // }
+
+    // if (10 > 20) {
+    //   if (10 < 20) {
+    //     console.log("-");
+    //   } else {
+    //     console.log("Yes");
+    //   }
+    // } else {
+    //   console.log("+");
+    // }
+
+    // if (90 > 50) {
+    //   if (10 < 20) {
+    //     console.log("-");
+    //   }
+    // } else {
+    //   console.log("-");
+    // }
+
+    // if (90 > 50) {
+    //   if (30 < 20) {
+    //     console.log("-");
+    //   }
+    // } else {
+    //   console.log("+");
+    // }
+
+    // if (90 > 50) {
+    // console.log("+");
+    // } else {
+    // console.log("-");
+    // }
+
+    // if (40 > 30) {
+    //   if (90 < 20) {
+    //     console.log("-");
+    //   }
+    // } else {
+    //   console.log("-");
+    // }
+
+    // if (90 > 50) {
+    //   if (30 < 20) {
+    //     console.log("-");
+    //   } else if (30 < 40) {
+    //     console.log("-");
+    //   } else {
+    //     console.log("-");
+    //   }
+    // } else {
+    //   console.log("-");
+    // }
+
+    // if (90 < 50) {
+    //   if (30 < 20) {
+    //     console.log("-");
+    //   }
+    // } else if (40 < 90) {
+    //   if (10 < 20) {
+    //     console.log("-");
+    //   }
+    // } else {
+    //   console.log("-");
+    // }
+
+    // if (90 < 50) {
+    //   if (30 < 20) {
+    //     console.log("-");
+    //   }
+    // } else if (100 < 90) {
+    //   if (10 < 20) {
+    //     console.log("-");
+    //   }
+    // } else {
+    //   console.log("-");
+    // }
+
+    // if (90 < 50) {
+    //   if (30 < 20) {
+    //     console.log("-");
+    //   }
+    // } else if (40 < 90) {
+    //   if (10 > 20) {
+    //     console.log("-");
+    //   }
+    // } else {
+    //   console.log("-");
+    // }
+
+    // if (90 > 50) {
+    //   if (30 < 20) {
+    //     console.log("+");
+    //   }
+    // } else if (40 < 90) {
+    //   if (10 < 20) {
+    //     console.log("-");
+    //   }
+    // } else {
+    //   console.log("-");
+    // }
   </script>
   <body></body>
 </html>
