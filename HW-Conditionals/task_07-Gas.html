@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gas</title>
+    <script>
+      /*  
+
+У нас есть разные виды топлива - дизель, бензин, гас и тд. 
+У каждого есть своя определенная цена. 
+Пользователь вводит тип топлива и количество. Посчитать total.
+input : (количество) (тип топлива) - prompt
+output : (total)
+
+*/
+
+      +prompt("Выберите ваш тип топлива: 1 - бензин, 2 - дизель, 3 - газ");
+
+      let z = +prompt("Введите количество L: ");
+
+      let a = 1; // - тип топлива: бензин (вносится через prompt)
+      let b = 2; // - тип топлива: дизель (вносится через prompt)
+      let c = 3; // - тип топлива: газ (вносится через prompt)
+
+      let result1 = z * 25; // расчет цены за бензин
+      let result2 = z * 20; // расчет цены за дизель
+      let result3 = z * 15; // расчет цены за газ
+
+      if (a) {
+        alert("Всего к оплате: " + result1); // выводится нормально
+      } else if (b) {
+        alert("Всего к оплате: " + result2); // не выводится ( ???  )
+      } else if (c) {
+        alert("Всего к оплате: " + result3); // не выводится ( ???  )
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
