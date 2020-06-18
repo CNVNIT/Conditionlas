@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      /*
+
+        In this kata you will have to write a function that takes litres and pricePerLiter as arguments.
+        Purchases of 2 or more litres get a discount of 5 cents per litre, purchases of 4 or more litres get a discount of 10 cents per litre, and so on every two litres, up to a maximum discount of 25 cents per litre.
+        But total discount per liter cannot be more than 25 cents. round answer to 2 decimal places.
+        Also you can guess that there will not be negative or non-numeric inputs.
+
+        */
+      while (true) {
+        let a = +prompt("Кол-тво литров");
+
+        if (a < 2) {
+          alert("0.00$ discount");
+        } else if (a < 4) {
+          alert("0.05$ discount");
+        } else if (a < 6) {
+          alert("0.10$ discount");
+        } else if (a < 8) {
+          alert("0.15$ discount");
+        } else if (a <= 10) {
+          alert("0.20$ discount");
+        } else {
+          alert("0.25$ discount");
+        }
+      }
+    </script>
+
+    <!-- 
+
+2L = 0.05$
+4L = 0.10$
+6 = 0.15
+8 = 0.20
+...
+10L = 25$ 
+
+-->
+  </head>
+  <body></body>
+</html>

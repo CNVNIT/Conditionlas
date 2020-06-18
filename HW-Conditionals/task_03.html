@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drinks</title>
+    <script>
+      /*
+
+          Kids drink toddy.
+          Teens drink coke.
+          Young adults drink beer.
+          Adults drink whisky.
+
+      Make a function that receive age, and return what they drink.
+
+      Rules:
+
+          Children under 14 old.
+          Teens under 18 old.
+          Young under 21 old.
+          Adults have 21 or more.
+
+      Examples:
+
+      peopleWithAgeDrink(13) === "drink toddy"
+      peopleWithAgeDrink(17) === "drink coke"
+      peopleWithAgeDrink(18) === "drink beer"
+      peopleWithAgeDrink(20) === "drink beer"
+      peopleWithAgeDrink(30) === "drink whisky"
+
+            */
+
+      // let children = 14;
+      // let teens = 18;
+      // let young = 21;
+      // let adults = 21;
+
+      let a = prompt("How old are you?");
+      while (true) {
+        if (a == "" || !Number.isInteger(+a)) {
+          a = prompt("Enter your age");
+        } else break;
+      }
+      console.log(a);
+
+      if (a <= 14) {
+        alert("Here is your milk");
+      } else if (a >= 15 && a <= 17) {
+        alert("Here is your coke");
+      } else if (a >= 18 && a <= 20) {
+        alert("Here is your beer");
+      } else if (a >= 21) {
+        alert("Here is your whisky");
+      }
+    </script>
+  </head>
+  <body></body>
+</html>

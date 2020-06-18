@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3</title>
+    <script>
+      /*
+
+      A trick I learned in elementary school to determine whether or not a number was divisible by three is to add all of the integers in the number together and to divide the resulting sum by three. If there is no remainder from dividing the sum by three, then the original number is divisible by three as well.
+      Given a series of numbers as a string, determine if the number represented by the string is divisible by three.
+      You can expect all test case arguments to be strings representing values greater than 0.
+
+                                Example:
+        "123"      -> true
+        "8409"     -> true
+        "100853"   -> false
+        "33333333" -> true
+        "7"        -> false
+
+      */
+
+      let a = +prompt("Введите число");
+
+      let result = a % 3;
+
+      if (result == 0) {
+        alert("Результат: Чилсло делится на три");
+      } else {
+        alert("Результат: Чилсло не делится на три");
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
